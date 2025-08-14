@@ -32,7 +32,7 @@ Study seasonal patterns in flight prices
 
 Explore airline-specific pricing strategies
 
-🛠️ Requirements
+**🛠️ Requirements**
 
 To run the analysis, install the following Python libraries:
 
@@ -48,5 +48,6 @@ Feature Engineering – Extract day, month, and time components from dates
 Predictive Modeling – Train regression models (Linear Regression, Random Forest, XGBoost) to predict ticket prices
 
 Outlier Detection – Identify unusually high or low prices compared to similar flights
+
 
 
