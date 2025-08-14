@@ -37,17 +37,6 @@ To run the analysis, install the following Python libraries:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-📊 Example Usage
-import pandas as pd
-
-# Load training data
-train_df = pd.read_excel("Data_Train (1).xlsx")
-
-# Summary statistics
-print(train_df.describe())
-
-# Top 5 most expensive flights
-print(train_df.sort_values("Price", ascending=False).head())
 
 🔍 Potential Analyses
 
@@ -58,3 +47,4 @@ Feature Engineering – Extract day, month, and time components from dates
 Predictive Modeling – Train regression models (Linear Regression, Random Forest, XGBoost) to predict ticket prices
 
 Outlier Detection – Identify unusually high or low prices compared to similar flights
+
